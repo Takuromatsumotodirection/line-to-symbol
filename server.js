@@ -91,7 +91,7 @@ async function sendToSymbol(userId, msg) {
     [
       new descriptors.UnresolvedMosaicDescriptor(
         new models.UnresolvedMosaicId(XYM_ID),
-        new models.Amount(0n)
+        new models.Amount(1000000n)
       )
     ],
     messageBytes
